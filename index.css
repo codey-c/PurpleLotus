@@ -1,5 +1,5 @@
 :root {
-    --color-green: #c63bb3;
+    --color-purple: rgb(158, 26, 143);
     --color-white: #FFFFFF;
     --color-white-dark: rgba(255, 255, 255, .9);
     --color-white-dark-btn-border: rgba(255, 255, 255, 0.644);
@@ -198,7 +198,7 @@
   }
   
   .section-title-green {
-    color: var(--color-green);
+    color: var(--color-purple);
   }
   
   @media (max-width: 750px) {
@@ -244,10 +244,10 @@
     height: 4rem;
     width: 15rem;
     line-height: 3.75rem;
-    border: 2px solid var(--color-green);
+    border: 2px solid var(--color-purple);
     -webkit-box-shadow: none;
             box-shadow: none;
-    background-color: var(--color-green);
+    background-color: var(--color-purple);
     border-radius: 10rem;
     font-size: 1.2rem;
     font-weight: 700;
@@ -261,7 +261,7 @@
   .btn:hover, .btn:active {
     outline: none;
     background-color: var(--color-white);
-    color: var(--color-green);
+    color: var(--color-purple);
   }
   
   .btn-border-white {
@@ -272,11 +272,11 @@
   
   .btn-border-white:hover {
     background-color: var(--color-white);
-    color: var(--color-green);
+    color: var(--color-purple);
   }
   
   .btn-dropdown {
-    border: 2px solid var(--color-green);
+    border: 2px solid var(--color-purple);
     background-color: transparent;
     width: 4rem;
     height: 4rem;
@@ -471,7 +471,7 @@
   .header {
     height: 100vh;
     width: 100%;
-    background-color: var(--color-green);
+    background-color: var(--color-purple);
     color: var(--color-white-dark);
     display: -webkit-box;
     display: -ms-flexbox;
@@ -560,7 +560,7 @@
   
   .header .bar-contacts .social > *:hover {
     background-color: var(--color-white-dark);
-    color: var(--color-green);
+    color: var(--color-purple);
   }
   
   @media (max-width: 700px) {
@@ -572,7 +572,7 @@
   .header .presentation {
     height: 94vh;
     background-image: -webkit-gradient(linear, left top, left bottom, from(var(--color-overlay)), to(var(--color-overlay))), url("https://res.cloudinary.com/dq8h1tfis/image/upload/v1601639288/Finance%20Business%20Template/presentation_pgejq4.jpg");
-    background-image: linear-gradient(var(--color-overlay), var(--color-overlay)), url("https://res.cloudinary.com/dq8h1tfis/image/upload/v1601639288/Finance%20Business%20Template/presentation_pgejq4.jpg");
+    background-image: linear-gradient(var(--color-overlay), var(--color-overlay)), url("images/big-class.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -654,7 +654,7 @@
     position: absolute;
     top: 3rem;
     left: 0;
-    background-color: var(--color-green);
+    background-color: var(--color-purple);
     display: block;
     width: 0;
     height: 2px;
@@ -663,7 +663,7 @@
   }
   
   .header .presentation nav.main-nav ul.main-nav-menu li a:hover {
-    color: var(--color-green);
+    color: var(--color-purple);
   }
   
   .header .presentation nav.main-nav ul.main-nav-menu li a:hover::after {
@@ -692,8 +692,8 @@
       height: 0;
       width: 20rem;
       padding: 2rem;
-      background-color: var(--color-green);
-      border: 1px solid var(--color-green);
+      background-color: var(--color-purple);
+      border: 1px solid var(--color-purple);
       -webkit-transform: scaleY(0);
               transform: scaleY(0);
     }
@@ -810,7 +810,7 @@
     font-size: 2rem;
     font-weight: 900;
     letter-spacing: 1.5px;
-    color: var(--color-green);
+    color: var(--color-purple);
   }
   
   .header .presentation .carousel .slider .slide__title {
@@ -885,7 +885,7 @@
   }
   
   .call-back {
-    background-color: var(--color-green);
+    background-color: var(--color-purple);
     color: var(--color-white-dark);
   }
   
@@ -1020,8 +1020,8 @@
   
   .solutions {
     padding: 15rem 0 4rem;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--color-overlay-dark)), to(var(--color-overlay-dark))), url("https://res.cloudinary.com/dq8h1tfis/image/upload/v1601639226/Finance%20Business%20Template/solutions_w5awd6.jpg");
-    background-image: linear-gradient(var(--color-overlay-dark), var(--color-overlay-dark)), url("https://res.cloudinary.com/dq8h1tfis/image/upload/v1601639226/Finance%20Business%20Template/solutions_w5awd6.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--color-overlay-dark)), to(var(--color-overlay-dark))), url("images/swim-event.jpg");
+    background-image: linear-gradient(var(--color-overlay-dark), var(--color-overlay-dark)), url("images/swim-event.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1143,7 +1143,7 @@
   .solutions .statistics .statistic__number {
     font-size: 3.4rem;
     font-weight: 900;
-    color: var(--color-green);
+    color: var(--color-purple);
   }
   
   .solutions .statistics .statistic__title {
@@ -1411,7 +1411,7 @@
   .call-back-section__form {
     width: 100%;
     padding: 5rem;
-    background-color: var(--color-green);
+    background-color: var(--color-purple);
     border-radius: 5px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1556,7 +1556,7 @@
     footer.footer .footer-content > div {
       -ms-flex-preferred-size: calc((100% / 2) - 6rem);
           flex-basis: calc((100% / 2) - 6rem);
-      border-bottom: 2px solid var(--color-green);
+      border-bottom: 2px solid var(--color-purple);
       padding-bottom: 2rem;
       margin-bottom: 4rem;
     }
@@ -1623,7 +1623,7 @@
   }
   
   footer.footer .social-logo i.fa:hover {
-    background-color: var(--color-green);
+    background-color: var(--color-purple);
     color: var(--color-white-dark);
     border: 2px solid var(--color-white-dark);
   }
@@ -1650,7 +1650,7 @@
   }
   
   footer.footer .links span:hover, footer.footer .links span:focus {
-    color: var(--color-green);
+    color: var(--color-purple);
     -webkit-transform: translateY(-0.5rem) scale(1.05);
             transform: translateY(-0.5rem) scale(1.05);
   }
